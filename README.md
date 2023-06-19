@@ -56,18 +56,6 @@ This is the summary of the steps that we will go over in this tutorial:
 ![Screenshot 2023-02-26 at 9 47 44 PM](https://user-images.githubusercontent.com/113396342/221467582-1221cd17-cea0-4f61-9828-2a66c5f8ccb9.png)
 #
 
-### Deep Note :
-
-- Once Azure Kubernetes Cluster is created , Azure automaticly creates another resource group starts with "MC" to put the components of the cluster in.But puts the Kubernetes Service itself inside the resource group that we created.
-    - Resource Group that I created
-    
-    ![Screenshot 2023-02-26 at 9 48 22 PM](https://user-images.githubusercontent.com/113396342/221468338-f3f7a94b-e629-4be8-b0c9-62ba674262af.png)
-    
-    - Resource Group that AZURE created 
-    
-    ![Screenshot 2023-02-26 at 9 48 31 PM](https://user-images.githubusercontent.com/113396342/221468925-b44a0c6c-da72-4df9-ab79-9dec23f94650.png)
-#
-
 ## Connect to Azure Kubernetes Cluster 
 
 - In order to connect to the cluster, click Connect , copy and paste the following commands to your terminal.
